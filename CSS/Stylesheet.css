@@ -33,7 +33,7 @@ ul {
 	padding-left: 100px;
 }
 figure {
-	margin-top: 200px;
+	margin-left: 200px;
 }
 header {
 	position: fixed;
@@ -123,4 +123,8 @@ ul.img-list li:hover span.text-content {
  
 .sidebox {
   background: #92A4AE no-repeat left bottom;
+}
+
+#nav {
+	position: fixed;
 }
