@@ -1,3 +1,7 @@
+* {
+	font-family: sans-serif;
+	font-weight: lighter;
+}
 body {
 	font-family: sans-serif;
 	background-color: rgb(255,255,255);}
@@ -21,19 +25,22 @@ a:hover {
 a:active {
 	color: rgb(255,0,255);}
 nav {
-	height: 200px;
-	width: 200px;
-	padding-left: 63px;
-	padding-top: 15px;
 	text-align: left;
 	}
 ul {
 	list-style-type: none;
-	line-height: 175%;
+	line-height: 150%;
+	padding-left: 100px;
 }
 figure {
-	margin-top: -300px;
-	margin-left: 415px;
+	margin-top: 200px;
+}
+header {
+	position: fixed;
+}
+#nav_container {
+	position: fixed;
+	padding-top: 150px;
 }
 footer {
 	position: fixed; bottom: 25; padding-left: 100px;
@@ -76,7 +83,7 @@ ul.img-list li {
 	width: 300px;
 }
 span.text-content {
-	background: rgba(255,255,255, 0.75);
+	background: rgba(255,255,255, 0.8);
 	color: black;
 	font-size: 2em;
 	cursor: pointer;
@@ -99,4 +106,21 @@ span.text-content span {
 }
 ul.img-list li:hover span.text-content {
 	opacity: 1;
+}
+.col-centered {
+	float: none;
+	margin: 0 auto;
+}
+#content {
+  position:absolute;
+  right: 0;
+  top: 500px;
+  width: 150px;
+  padding: 0 30px 50px 15px;
+  font-size: small;
+  color: #FFFFFF;
+}
+ 
+.sidebox {
+  background: #92A4AE no-repeat left bottom;
 }
