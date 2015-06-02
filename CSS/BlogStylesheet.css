@@ -1,0 +1,37 @@
+ * {
+    font-family: sans-serif;
+    font-weight: lighter;
+ }
+
+ h1 {
+    font-weight: lighter
+ }
+
+ h2 {
+    font-weight: lighter
+ }
+
+ h3 {
+    font-weight: lighter
+ }
+
+ p {
+    line-height: 100%;
+    font-size: 0.9em;
+    letter-spacing: 0.1em;
+    line-height: 1.7em;
+ }
+
+ul {
+    line-height: 100%;
+    font-size: 0.8em;
+    letter-spacing: 0.1em;
+    line-height: 1.3em;
+ }
+
+ ol {
+    line-height: 100%;
+    font-size: 0.8em;
+    letter-spacing: 0.1em;
+    line-height: 1.7em;
+ }
